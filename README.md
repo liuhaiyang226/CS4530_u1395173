@@ -1,2 +1,4 @@
 # CS4530_u1395173
-CS4530 assignments
+Name: Haiyang Liu
+uID: u1395173
+Github username: liuhaiyang
