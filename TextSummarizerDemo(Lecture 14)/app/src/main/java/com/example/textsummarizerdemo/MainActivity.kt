@@ -49,7 +49,7 @@ class MyViewModel : ViewModel()
         viewModelScope.launch {
             try {
                 val generativeModel = GenerativeModel(
-                    modelName = "gemini-1.5-flash",
+                    modelName = "gemini-2.5-flash",
                     apiKey = com.example.textsummarizerdemo.BuildConfig.GEMINI_API_KEY
                 )
 
