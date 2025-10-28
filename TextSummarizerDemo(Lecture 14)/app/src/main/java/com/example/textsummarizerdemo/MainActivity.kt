@@ -64,28 +64,6 @@ class MyViewModel : ViewModel()
                 Log.e("SummarizeError", e.toString())
             }
         }
-
-
-
-    fun summarizeText(input: String) {
-        viewModelScope.launch {
-            try {
-                // Initialize the Gemini model
-                val generativeModel = GenerativeModel(
-                    modelName = "gemini-1.5-flash",
-                    apiKey = BuildConfig.GEMINI_API_KEY
-                )
-
-                val prompt = "Summarize the following text concisely:\n\n$input"
-                val response = generativeModel.generateContent(prompt)
-
-                summaryMutable.value = response.text ?: "No summary generated"
-
-            } catch (e: Exception) {
-                summaryMutable.value = "Error: ${e.message}"
-                Log.e("SummarizeError", e.toString())
-            }
-        }
     }
 }
 
