@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "733853669662",
+    "project_id": "classpractice18",
+    "storage_bucket": "classpractice18.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733853669662:android:abc26311cc338342e9510f",
+        "android_client_info": {
+          "package_name": "com.example.firestoredemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3_eVO8b6vK_6kqOg4t7Q9yXy3AGXWTPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
